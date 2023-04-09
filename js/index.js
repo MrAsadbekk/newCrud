@@ -85,7 +85,7 @@ form.addEventListener("submit", (e) => {
 });
 
 tableBody.addEventListener("click", (e) => {
-  if (e.target.classList.contains("delete_btn")) {
+  if (e.target.classList.contains("delete__btn")) {
     const id = e.target.dataset.id;
 
     deleteUser(id)
